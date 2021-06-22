@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.folder"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.jboss.tools.jst.web.ui.wizards.newfile.NewXHTMLWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.jboss.tools.cdi.ui"/>
-			<item value="org.eclipse.datatools.connectivity"/>
-			<item value="hibernatewizards"/>
-			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.debug.ui.java"/>
+			<item value="org.jboss.tools.jst.web"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">

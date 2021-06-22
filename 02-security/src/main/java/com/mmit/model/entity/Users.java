@@ -25,6 +25,7 @@ public class Users implements Serializable {
 	@NotEmpty(message = "Require email!")
 	@Column(unique = true)
 	private String email;
+	@NotEmpty(message = "Require password")
 	private String password;
 	private String userName;
 	@CreationTimestamp
@@ -35,12 +36,72 @@ public class Users implements Serializable {
 	@Enumerated(EnumType.STRING)
 	private Role role;
 	public enum Role{
-		Admin,Customer
+		Admin,Member
 	}
 	
 
 	public Users() {
 		super();
+	}
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
+	public String getPassword() {
+		return password;
+	}
+
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+	public String getUserName() {
+		return userName;
+	}
+
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+
+	public LocalDate getCreate_at() {
+		return create_at;
+	}
+
+
+	public void setCreate_at(LocalDate create_at) {
+		this.create_at = create_at;
+	}
+
+
+	public LocalDate getUpdate_at() {
+		return update_at;
+	}
+
+
+	public void setUpdate_at(LocalDate update_at) {
+		this.update_at = update_at;
+	}
+
+
+	public Role getRole() {
+		return role;
+	}
+
+
+	public void setRole(Role role) {
+		this.role = role;
 	}
    
 }

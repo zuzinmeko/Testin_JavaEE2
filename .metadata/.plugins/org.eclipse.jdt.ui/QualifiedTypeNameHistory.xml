@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
     <fullyQualifiedTypeName name="javax.persistence.NoResultException"/>
     <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
-    <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.UpdateTimestamp"/>
@@ -13,6 +12,25 @@
     <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
     <fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+    <fullyQualifiedTypeName name="javax.annotation.security.DeclareRoles"/>
+    <fullyQualifiedTypeName name="javax.security.enterprise.identitystore.DatabaseIdentityStoreDefinition"/>
+    <fullyQualifiedTypeName name="javax.security.enterprise.authentication.mechanism.http.FormAuthenticationMechanismDefinition"/>
+    <fullyQualifiedTypeName name="javax.security.enterprise.authentication.mechanism.http.LoginToContinue"/>
+    <fullyQualifiedTypeName name="javax.enterprise.context.ApplicationScoped"/>
+    <fullyQualifiedTypeName name="javax.ejb.Singleton"/>
+    <fullyQualifiedTypeName name="javax.ejb.Startup"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="com.mmit.model.entity.Users"/>
+    <fullyQualifiedTypeName name="com.mmit.model.entity.Users.Role"/>
+    <fullyQualifiedTypeName name="com.mmit.model.service.UserService"/>
+    <fullyQualifiedTypeName name="javax.security.enterprise.identitystore.Pbkdf2PasswordHash"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="javax.inject.Named"/>
+    <fullyQualifiedTypeName name="javax.faces.annotation.RequestCookieMap"/>
+    <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
 </qualifiedTypeNameHistroy>

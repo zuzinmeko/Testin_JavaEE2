@@ -1,0 +1,15 @@
+package com.mmit.security;
+
+import javax.annotation.security.DeclareRoles;
+import javax.enterprise.context.ApplicationScoped;
+import javax.security.enterprise.identitystore.DatabaseIdentityStoreDefinition;
+
+@ApplicationScoped
+@DeclareRoles({"Admin","Customer"})
+@DatabaseIdentityStoreDefinition(
+			dataSourceLookup = "",
+			groupsQuery = "SELECT role FROM Users WHERE email=?"
+		)
+public class AppSecurityConfig {
+
+}

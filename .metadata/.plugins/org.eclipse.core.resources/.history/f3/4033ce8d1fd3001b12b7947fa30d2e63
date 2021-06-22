@@ -1,0 +1,23 @@
+package com.mmit.security;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+import javax.enterprise.context.ApplicationScoped;
+
+import com.mmit.model.entity.Users;
+import com.mmit.model.entity.Users.Role;
+
+@ApplicationScoped
+@Singleton
+@Startup
+public class AdminUserCreation {
+	@PostConstruct 
+	private void init() {
+		Users user=new Users();
+		user.setEmail("ywk@gmail.com");
+		user.setPassword("12345678");
+		user.setRole(Role.Admin);
+		user.setUserName("ywk");
+	}
+}

@@ -25,3 +25,10 @@ Jun 22, 2021 07:37:52.24 [840:7024:0622/073751.684:ERROR:device_event_log_impl.c
 Jun 22, 2021 07:37:52.24 [840:7024:0622/073751.685:ERROR:device_event_log_impl.cc(214)] [07:37:51.684] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 Jun 22, 2021 07:39:52.270 [840:9644:0622/073952.269:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
 Jun 22, 2021 07:40:14.72 [840:9644:0622/074014.072:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+Jun 22, 2021 13:34:10.682 NEW SESSION
+Jun 22, 2021 13:34:10.682 [6932:3556:0622/133410.119:ERROR:device_event_log_impl.cc(214)] [13:34:10.118] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 22, 2021 13:34:10.879 [6932:3556:0622/133410.119:ERROR:device_event_log_impl.cc(214)] [13:34:10.120] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 22, 2021 13:34:10.887 [6932:3556:0622/133410.119:ERROR:usb_descriptors.cc(117)] Failed to read configuration descriptor.
+Jun 22, 2021 13:34:10.887 [6932:3556:0622/133410.119:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 1, got 0.
+Jun 22, 2021 13:34:10.887 [6932:3556:0622/133410.119:ERROR:device_event_log_impl.cc(214)] [13:34:10.120] USB: usb_device_win.cc:93 Failed to read descriptors from \\?\usb#vid_0000&pid_0538#6&4987a43&0&2#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
