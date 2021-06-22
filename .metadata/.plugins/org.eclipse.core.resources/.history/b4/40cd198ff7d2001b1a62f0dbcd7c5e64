@@ -1,0 +1,28 @@
+package com.mmit.model.entity;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Users
+ *
+ */
+@Entity
+
+public class Users implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	private String loginId;
+	private String userName;
+	
+	
+	
+	public enum Role{
+		Admin,Staff
+	}
+	public Users() {
+		super();
+	}
+   
+}

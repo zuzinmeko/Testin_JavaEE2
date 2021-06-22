@@ -1,0 +1,37 @@
+package com.mmit.model.entity;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+/**
+ * Entity implementation class for Entity: Users
+ *
+ */
+@Entity
+
+public class Users implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	private String loginId;
+	private String userName;
+	private Role role;
+	@CreationTimestamp
+	private LocalDate create_at;
+	@UpdateTimestamp
+	private LocalDate update_at;
+	
+	
+	public enum Role{
+		Admin,Staff
+	}
+	public Users() {
+		super();
+	}
+   
+}

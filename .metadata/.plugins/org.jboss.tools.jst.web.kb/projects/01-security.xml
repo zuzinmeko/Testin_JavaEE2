@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+  </core>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="21" name="%2" offset="542" path="%3"/>
+   <linked-el length="21" name="%4" offset="542" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/01-security/src/main/java/com/mmit/model/service/UserService.java" value="%0"/>
+  <alias path="project.artifactId" value="%2"/>
+  <alias path="project" value="%4"/>
+  <alias
+   path="/01-security/src/main/java/com/mmit/security/AdminUserCreation.java" value="%1"/>
+  <alias path="/01-security/pom.xml" value="%3"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

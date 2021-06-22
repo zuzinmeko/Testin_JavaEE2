@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>01-security</display-name>
+  <welcome-file-list>
+    <welcome-file>index.xhtml</welcome-file>
+   
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FacesServlet</display-name>
+    <servlet-name>FacesServlet</servlet-name>
+    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FacesServlet</servlet-name>
+    <url-pattern>*.xhtml</url-pattern>
+  </servlet-mapping>
+  <security-constraint>
+  	<web-resource-collection>
+  		<web-resource-name>Admin Functions</web-resource-name>
+  		<url-pattern>/admin/*</url-pattern>
+  	</web-resource-collection>
+  	<auth-constraint>
+  		<role-name>Admin</role-name>
+  	</auth-constraint>
+  	<user-data-constraint>
+  		<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+  	</user-data-constraint>
+  </security-constraint>
+  <security-constraint>
+  	<web-resource-collection>
+  		<web-resource-name>Staff Functions</web-resource-name>
+  		<url-pattern>/staff/*</url-pattern>
+  	</web-resource-collection>
+  	<auth-constraint>
+  		<role-name>Staff</role-name>
+  		<role-name>Admin</role-name>
+  	</auth-constraint>
+  </security-constraint>
+</web-app>

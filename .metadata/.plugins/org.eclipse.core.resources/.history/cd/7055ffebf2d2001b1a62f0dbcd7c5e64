@@ -1,0 +1,10 @@
+package com.mmit.security;
+
+import javax.annotation.security.DeclareRoles;
+import javax.enterprise.context.ApplicationScoped;
+
+@ApplicationScoped
+@DeclareRoles("Admin","Staff")
+public class ApplicationSecurityConfig {
+
+}

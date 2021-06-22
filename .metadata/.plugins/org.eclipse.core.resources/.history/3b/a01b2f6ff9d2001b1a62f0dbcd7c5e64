@@ -1,0 +1,12 @@
+package com.mmit.security;
+
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+import javax.enterprise.context.ApplicationScoped;
+
+@ApplicationScoped
+@Singleton
+@Startup
+public class AdminUserCreation {
+	
+}
