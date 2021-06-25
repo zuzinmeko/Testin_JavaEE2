@@ -19,11 +19,15 @@ public class AdminUserCreation {
 	private UserService service;
 	@PostConstruct 
 	private void init() {
+		
+		long userCount=service.getCount();
+		if(userCount == 0) {
 		Users user=new Users();
 		user.setEmail("ywk@gmail.com");
 		user.setPassword("12345678");
 		user.setRole(Role.Admin);
 		user.setUserName("ywk");
 		service.createUser(user);
+		}
 	}
 }

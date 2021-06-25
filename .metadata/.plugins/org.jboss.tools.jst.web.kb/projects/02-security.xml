@@ -28,26 +28,78 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core">
    <linked-resource declaration="true" name="%1;" path="%0"/>
-   <linked-resource name="%3;" path="%2"/>
+   <linked-resource declaration="true" name="%3;" path="%2"/>
+   <linked-resource name="%0;%5;%6;" path="%4"/>
+   <linked-resource declaration="true" name="%7;" path="%5"/>
   </core>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="25" name="%0" offset="712" path="%4"/>
-   <linked-el length="25" name="%1" offset="712" path="%4"/>
+   <linked-el length="25" name="%2" offset="712" path="%8"/>
+   <linked-el length="25" name="%2" offset="847" path="%9"/>
+   <linked-el length="32" name="%0" offset="1561" path="%9"/>
+   <linked-el length="33" name="%0" offset="1691" path="%9"/>
+   <linked-el length="28" name="%0" offset="1360" path="%9"/>
+   <linked-el length="28" name="%0" offset="1167" path="%9"/>
+   <linked-el length="25" name="%3" offset="712" path="%8"/>
+   <linked-el length="25" name="%3" offset="847" path="%9"/>
+   <linked-el length="27" name="%5" offset="2023" path="%10"/>
+   <linked-el length="24" name="%5" offset="1705" path="%10"/>
+   <linked-el length="24" name="%5" offset="1116" path="%10"/>
+   <linked-el length="28" name="%5" offset="891" path="%10"/>
+   <linked-el length="20" name="%5" offset="2205" path="%10"/>
+   <linked-el length="27" name="%5" offset="1405" path="%10"/>
+   <linked-el length="27" name="%5" offset="1989" path="%10"/>
+   <linked-el length="32" name="%1" offset="1561" path="%9"/>
+   <linked-el length="33" name="%1" offset="1691" path="%9"/>
+   <linked-el length="28" name="%1" offset="1360" path="%9"/>
+   <linked-el length="28" name="%1" offset="1167" path="%9"/>
+   <linked-el length="27" name="%7" offset="2023" path="%10"/>
+   <linked-el length="29" name="%7" offset="2727" path="%10"/>
+   <linked-el length="24" name="%7" offset="1705" path="%10"/>
+   <linked-el length="24" name="%7" offset="1116" path="%10"/>
+   <linked-el length="29" name="%7" offset="2620" path="%10"/>
+   <linked-el length="28" name="%7" offset="891" path="%10"/>
+   <linked-el length="28" name="%7" offset="2318" path="%10"/>
+   <linked-el length="20" name="%7" offset="2205" path="%10"/>
+   <linked-el length="27" name="%7" offset="1405" path="%10"/>
+   <linked-el length="25" name="%7" offset="2420" path="%10"/>
+   <linked-el length="24" name="%7" offset="2518" path="%10"/>
+   <linked-el length="27" name="%7" offset="1989" path="%10"/>
+   <linked-el length="29" name="%11" offset="2727" path="%10"/>
+   <linked-el length="24" name="%11" offset="1705" path="%10"/>
+   <linked-el length="24" name="%11" offset="1116" path="%10"/>
+   <linked-el length="29" name="%11" offset="2620" path="%10"/>
+   <linked-el length="28" name="%11" offset="891" path="%10"/>
+   <linked-el length="28" name="%11" offset="2318" path="%10"/>
+   <linked-el length="27" name="%11" offset="1405" path="%10"/>
+   <linked-el length="25" name="%11" offset="2420" path="%10"/>
+   <linked-el length="24" name="%11" offset="2518" path="%10"/>
   </el>
  </validation>
  <aliases>
   <alias
-   path="/02-security/src/main/java/com/mmit/beans/LogoutBean.java" value="%0"/>
-  <alias path="logoutBean" value="%1"/>
+   path="/02-security/src/main/java/com/mmit/beans/MemberBean.java" value="%0"/>
   <alias
-   path="/02-security/src/main/java/com/mmit/model/service/UserService.java" value="%2"/>
-  <alias path="/02-security/src/main/webapp/403-error.xhtml" value="%4"/>
+   path="/02-security/src/main/java/com/mmit/beans/LogoutBean.java" value="%2"/>
+  <alias path="logoutBean" value="%3"/>
   <alias
-   path="/02-security/src/main/java/com/mmit/security/AdminUserCreation.java" value="%3"/>
+   path="/02-security/src/main/java/com/mmit/model/service/UserService.java" value="%4"/>
+  <alias path="/02-security/src/main/webapp/admin/admin-home.xhtml" value="%10"/>
+  <alias path="/02-security/src/main/webapp/member/member-home.xhtml" value="%9"/>
+  <alias path="/02-security/src/main/java/com/mmit/beans/UserBean.java" value="%5"/>
+  <alias path="/02-security/src/main/webapp/403-error.xhtml" value="%8"/>
+  <alias path="memberBean" value="%1"/>
+  <alias
+   path="/02-security/src/main/java/com/mmit/security/AdminUserCreation.java" value="%6"/>
+  <alias path="userBean" value="%7"/>
+  <alias
+   path="/02-security/src/main/java/com/mmit/model/entity/Users.java" value="%11"/>
  </aliases>
  <includes/>
  <uris>
+  <uri value="http://xmlns.jcp.org/jsf/html">
+   <prefix>h</prefix>
+  </uri>
   <uri value="http://java.sun.com/jsf/core">
    <prefix>f</prefix>
   </uri>

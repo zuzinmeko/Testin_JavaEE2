@@ -3,9 +3,9 @@
 	<persistence-unit name="02-security">
 		<jta-data-source>java:/jsf_user_ds</jta-data-source>
 		<properties>
-			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
+			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
 		</properties>
 	</persistence-unit>
 </persistence>

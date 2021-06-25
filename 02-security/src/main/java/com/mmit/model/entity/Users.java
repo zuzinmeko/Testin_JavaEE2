@@ -15,7 +15,9 @@ import org.hibernate.annotations.UpdateTimestamp;
  *
  */
 @Entity
-
+@NamedQuery(name="User.findAll",query = "SELECT u FROM Users u WHERE u.email <> :email")
+@NamedQuery(name="Users.findby",query="SELECT u FROM Users u WHERE u.email = :email")
+@NamedQuery(name="User.getCount",query="SELECT count(u) FROM Users u")
 public class Users implements Serializable {
 
 	

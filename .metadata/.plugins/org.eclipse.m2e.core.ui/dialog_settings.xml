@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\TestingJavaEE2\03-shoe-shop-project"/>
 			<item value="D:\TestingJavaEE2\02-Shop-Shoe-Project"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -51,8 +52,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="02-security"/>
+			<item value="03-security-customstore"/>
 			<item value="java-ee-b3"/>
+			<item value="02-security"/>
 			<item value="03-shoe-shop-project"/>
 			<item value="01-validators"/>
 		</list>
@@ -89,6 +91,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\hp\Downloads\security-02"/>
 			<item value="C:\Users\hp\Desktop\shoeshopsystem-master"/>
 		</list>
 		<list key="projectNameTemplate">
