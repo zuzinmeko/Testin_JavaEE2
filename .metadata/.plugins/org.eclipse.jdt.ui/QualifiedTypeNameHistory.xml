@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.OrderDetail"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.model.service.OrderService"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Orders"/>
-    <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
-    <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
-    <fullyQualifiedTypeName name="javax.faces.view.ViewScoped"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.model.service.ProductService"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Product"/>
-    <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
     <fullyQualifiedTypeName name="javax.xml.registry.infomodel.User"/>
     <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
     <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
-    <fullyQualifiedTypeName name="javax.inject.Named"/>
     <fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
     <fullyQualifiedTypeName name="javax.annotation.security.DeclareRoles"/>
     <fullyQualifiedTypeName name="javax.faces.annotation.FacesConfig"/>
@@ -48,16 +35,29 @@
     <fullyQualifiedTypeName name="javax.security.enterprise.identitystore.CredentialValidationResult"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="com.mmit.security.AppException"/>
-    <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
-    <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
     <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Users.Role"/>
-    <fullyQualifiedTypeName name="com.mmit.shops.AppException"/>
     <fullyQualifiedTypeName name="com.mmit.shop.model.service.UserService"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Users"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
-    <fullyQualifiedTypeName name="com.mmit.shop.bean.LoginBean"/>
-    <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="javax.enterprise.context.SessionScoped"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Category"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.service.CategoryService"/>
+    <fullyQualifiedTypeName name="jdk.jfr.Name"/>
+    <fullyQualifiedTypeName name="javax.inject.Named"/>
+    <fullyQualifiedTypeName name="javax.faces.convert.Converter"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Brand"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.service.BrandService"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+    <fullyQualifiedTypeName name="javax.ejb.EJBException"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Users"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Users1.Role"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.bean.LoginBean"/>
+    <fullyQualifiedTypeName name="com.mmit.shop.model.entity.Users1"/>
+    <fullyQualifiedTypeName name="com.mmit.shops.AppException"/>
 </qualifiedTypeNameHistroy>

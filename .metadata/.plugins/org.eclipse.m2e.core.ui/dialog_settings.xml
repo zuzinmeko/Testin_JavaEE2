@@ -45,15 +45,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.mmit"/>
 			<item value="com.mmit.template"/>
+			<item value="com.mmit"/>
 			<item value="com.mmit.javaee"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="03-security-customstore"/>
 			<item value="java-ee-b3"/>
+			<item value="03-security-customstore"/>
 			<item value="02-security"/>
 			<item value="03-shoe-shop-project"/>
 			<item value="01-validators"/>
@@ -67,8 +67,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.0"/>
 			<item value="1.0 Final"/>
+			<item value="1.0"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
@@ -91,6 +91,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\TestingJavaEE2\03-shoe-shop-project"/>
+			<item value="D:\TestingJavaEE2\java-ee-b3"/>
+			<item value="C:\Users\hp\Desktop\03-shoe-shop-project"/>
+			<item value="C:\Users\hp\Desktop\shoe-shops"/>
 			<item value="C:\Users\hp\Downloads\security-02"/>
 			<item value="C:\Users\hp\Desktop\shoeshopsystem-master"/>
 		</list>
