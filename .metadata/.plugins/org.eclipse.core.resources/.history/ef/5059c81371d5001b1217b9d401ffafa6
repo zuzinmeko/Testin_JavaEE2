@@ -1,0 +1,8 @@
+package com.mmit.security;
+
+import javax.ejb.ApplicationException;
+
+@ApplicationException (rollback = true)
+public class AppException extends RuntimeException{
+
+}

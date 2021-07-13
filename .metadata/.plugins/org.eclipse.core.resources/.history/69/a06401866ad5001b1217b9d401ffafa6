@@ -1,0 +1,12 @@
+package com.mmit.sec.bean;
+
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
+
+@Named
+@RequestScoped
+public class LoginBean {
+		public String login() {
+			return null;
+		}
+}

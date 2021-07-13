@@ -1,0 +1,8 @@
+package com.mmit.sec.service;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class UserService {
+
+}

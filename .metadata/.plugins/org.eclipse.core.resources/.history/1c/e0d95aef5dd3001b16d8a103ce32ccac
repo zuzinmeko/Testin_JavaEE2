@@ -1,0 +1,5 @@
+package com.mmit.beans;
+
+public class UserBean {
+
+}

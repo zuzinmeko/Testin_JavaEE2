@@ -1,0 +1,18 @@
+package com.mmit.sec.service;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.mmit.sec.entity.Users;
+
+@Stateless
+public class UserService {
+	@PersistenceContext
+	private EntityManager em;
+
+	public void save(Users user) {
+		
+		
+	}
+}

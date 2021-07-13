@@ -1,0 +1,16 @@
+package com.mmit.security;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+import javax.enterprise.context.ApplicationScoped;
+
+@ApplicationScoped
+@Singleton
+@Startup
+public class AdminCreation {
+	@PostConstruct
+	private void init() {
+		
+	}
+}

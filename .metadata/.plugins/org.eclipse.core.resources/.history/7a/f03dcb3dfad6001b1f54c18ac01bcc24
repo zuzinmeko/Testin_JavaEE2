@@ -1,0 +1,27 @@
+package com.mmit.shop.bean;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import com.mmit.shop.model.entity.Users;
+import com.mmit.shop.model.service.UserService;
+
+@Named
+@RequestScoped
+public class UserBean {
+	private List<Users> users;
+	@Inject
+	private UserService service;
+	@PostConstruct
+	private void init() {
+		users=service.findAll();
+	}
+	public List<Users> getUsers() {
+		return users;
+	}
+	
+}

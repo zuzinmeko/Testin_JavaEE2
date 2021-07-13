@@ -1,0 +1,21 @@
+package com.mmit.beans;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
+
+import com.mmit.model.entity.Users;
+
+@Named
+@RequestScoped
+public class UserBean {
+	private Users user;
+	
+	private List<Users> users;
+	@PostConstruct
+	private void init() {
+		
+	}
+}

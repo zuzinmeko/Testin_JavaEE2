@@ -1,0 +1,25 @@
+package com.mmit.shop.converter;
+
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.convert.Converter;
+import javax.inject.Named;
+
+import com.mmit.shop.model.entity.Category;
+
+@Named
+public class CategoryConverter implements Converter<Category>{
+
+	@Override
+	public Category getAsObject(FacesContext context, UIComponent component, String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getAsString(FacesContext context, UIComponent component, Category value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

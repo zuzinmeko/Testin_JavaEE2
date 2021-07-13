@@ -167,3 +167,33 @@ Jun 27, 2021 10:58:18.46 [5780:4416:0627/105818.045:ERROR:connection_factory_imp
 
 Jun 28, 2021 09:23:10.60 NEW SESSION
 Jun 28, 2021 09:23:10.61 [11356:2868:0628/092309.770:ERROR:device_event_log_impl.cc(214)] [09:23:09.770] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Jun 29, 2021 09:33:07.874 NEW SESSION
+Jun 29, 2021 09:33:07.874 [8160:9836:0629/093307.321:ERROR:device_event_log_impl.cc(214)] [09:33:07.321] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 29, 2021 09:33:08.163 [8160:9836:0629/093307.323:ERROR:device_event_log_impl.cc(214)] [09:33:07.324] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 29, 2021 09:34:04.283 [8160:7304:0629/093404.283:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 29, 2021 10:19:17.753 [8160:7304:0629/101917.751:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 29, 2021 10:19:45.293 [8160:7304:0629/101945.293:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 29, 2021 10:20:37.782 [8160:7304:0629/102037.782:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 29, 2021 10:22:15.63 [8160:7304:0629/102215.062:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 29, 2021 10:26:07.726 [8160:7304:0629/102607.726:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 29, 2021 10:26:09.733 [8160:7304:0629/102609.732:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 29, 2021 10:26:51.354 [8160:7304:0629/102651.353:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 29, 2021 10:28:37.583 [8160:7304:0629/102837.583:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 29, 2021 10:31:57.359 [8160:7304:0629/103157.359:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 29, 2021 10:38:39.957 [8160:7304:0629/103839.957:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 29, 2021 12:25:24.303 [8160:7304:0629/122524.228:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:25:47.995 [8160:7304:0629/122547.995:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:26:37.789 [8160:7304:0629/122637.789:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:28:26.211 [8160:7304:0629/122826.210:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:31:40.996 [8160:7304:0629/123140.995:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:37:27.116 [8160:7304:0629/123727.115:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:47:27.778 [8160:7304:0629/124727.777:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:57:28.534 [8160:7304:0629/125728.533:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 12:58:26.426 [8160:7976:0629/125826.426:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jun 29, 2021 12:59:12.140 [8160:8676:0629/125912.140:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jun 29, 2021 13:00:20.462 [8160:8676:0629/130020.461:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jun 29, 2021 13:03:09.841 [8160:8676:0629/130309.840:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jun 29, 2021 13:07:23.629 [8160:1416:0629/130723.628:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jun 29, 2021 13:07:29.222 [8160:7304:0629/130729.221:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127
+Jun 29, 2021 13:17:29.927 [8160:7304:0629/131729.926:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -127

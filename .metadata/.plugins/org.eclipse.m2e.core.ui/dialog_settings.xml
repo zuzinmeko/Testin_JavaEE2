@@ -91,6 +91,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\TestingJavaEE2\02-security"/>
 			<item value="D:\TestingJavaEE2\03-shoe-shop-project"/>
 			<item value="D:\TestingJavaEE2\java-ee-b3"/>
 			<item value="C:\Users\hp\Desktop\03-shoe-shop-project"/>

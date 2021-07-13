@@ -1,0 +1,33 @@
+package com.mmit.shop.model.entity;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.CreationTimestamp;
+
+/**
+ * Entity implementation class for Entity: Orders
+ *
+ */
+@Entity
+
+public class Orders implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	@ManyToOne
+	@JoinColumn(name="customer_id")
+	private Users customer;
+	@CreationTimestamp
+	private LocalDate orderDate;
+	public Orders() {
+		super();
+	}
+   
+}

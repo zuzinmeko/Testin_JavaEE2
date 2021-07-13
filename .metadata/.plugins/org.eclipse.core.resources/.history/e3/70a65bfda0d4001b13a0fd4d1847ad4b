@@ -1,0 +1,21 @@
+package com.mmit.beans;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: MemberBean
+ *
+ */
+@Entity
+
+public class MemberBean implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public MemberBean() {
+		super();
+	}
+   
+}

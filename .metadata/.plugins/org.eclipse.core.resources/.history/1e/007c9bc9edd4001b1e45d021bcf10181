@@ -1,0 +1,5 @@
+package com.mmit.shop.bean;
+
+public class ProductBean {
+
+}

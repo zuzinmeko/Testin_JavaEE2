@@ -1,0 +1,18 @@
+package com.mmit.shop.bean;
+
+import java.util.List;
+
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
+
+import com.mmit.shop.model.entity.Product;
+import com.mmit.shop.model.service.ProductService;
+
+@Named
+@RequestScoped
+public class ProductBean {
+	
+	private List<Product> product;
+	
+	private ProductService service;
+}

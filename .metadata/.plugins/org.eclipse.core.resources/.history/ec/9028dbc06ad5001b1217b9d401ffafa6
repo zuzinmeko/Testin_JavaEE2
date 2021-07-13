@@ -1,0 +1,17 @@
+package com.mmit.sec.bean;
+
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
+import javax.validation.constraints.NotEmpty;
+
+@Named
+@RequestScoped
+public class LoginBean {
+	@NotEmpty(message = "Require login Id")
+	private String loginId;
+	@NotEmpty(message = "Require password")
+	private String password;
+		public String login() {
+			return null;
+		}
+}

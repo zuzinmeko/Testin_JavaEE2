@@ -1,0 +1,43 @@
+package com.mmit.shop.model.entity;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Product
+ *
+ */
+@Entity
+
+public class Product implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	private String name;
+	
+	private int price;
+	
+	private String productDetails;
+	
+	private Category category;
+	
+	private Brand brand;
+	
+	private Users create_by;
+	
+	private Users update_by;
+	
+	private LocalDate create_at;
+	private LocalDate update_at;
+	
+	public Product() {
+		super();
+	}
+   
+}

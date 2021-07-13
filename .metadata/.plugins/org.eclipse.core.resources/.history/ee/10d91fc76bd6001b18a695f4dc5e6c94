@@ -1,0 +1,30 @@
+package com.mmit.shop.bean;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import com.mmit.shop.model.entity.Product;
+import com.mmit.shop.model.service.ProductService;
+
+@Named
+@RequestScoped
+public class ProductBean {
+	
+	private List<Product> products;
+	@Inject
+	private ProductService service;
+	private Product product;
+	@PostConstruct
+	private void init() {
+		products=service.findAll();
+	}
+	public List<Product> getProducts() {
+		return products;
+	}
+	
+	
+}

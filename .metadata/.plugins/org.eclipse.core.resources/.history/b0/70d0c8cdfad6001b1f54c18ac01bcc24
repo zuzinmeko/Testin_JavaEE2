@@ -1,0 +1,49 @@
+package com.mmit.shop.model.entity;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+/**
+ * Entity implementation class for Entity: Users
+ *
+ */
+@Entity
+@NamedQuery(name="Users.findAll",query="SELECT u FROM Users1 u ")
+@NamedQuery(name="Users.findLoginId",query="SELECT u FROM Users1 u WHERE u.LoginId=:LoginId")
+@NamedQuery(name="User.getCount",query="SELECT count(u) FROM Users1 u")
+public class Users1 implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	
+		@Id
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
+		private int id;
+		private String userName;
+		private String LoginId;
+		private String password;
+		private String phone;
+		private String address;
+		@CreationTimestamp
+		private LocalDate created_at;
+		@UpdateTimestamp
+		private LocalDate updated_at;
+		
+		private Role role;
+		
+		public enum Role{
+			Admin,Staff,Customer
+		}
+		
+	public Users1() {
+		super();
+	}
+
+	
+   
+}

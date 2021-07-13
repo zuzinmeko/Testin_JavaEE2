@@ -1,0 +1,20 @@
+package com.mmit.shop.model.service;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.xml.registry.infomodel.User;
+
+@Stateless
+public class UserService {
+
+	@PersistenceContext
+	private EntityManager em;
+
+	public List<User> findAll() {
+		
+		return null;
+	}
+}

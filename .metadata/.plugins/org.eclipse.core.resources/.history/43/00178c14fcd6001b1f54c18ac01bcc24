@@ -1,0 +1,14 @@
+package com.mmit.shops;
+
+import javax.ejb.ApplicationException;
+
+@ApplicationException (rollback = true)
+public class AppExceptions extends RuntimeException{
+
+	
+	private static final long serialVersionUID = 1L;
+	public AppExceptions (String msg) {
+		super(msg);
+	}
+
+}

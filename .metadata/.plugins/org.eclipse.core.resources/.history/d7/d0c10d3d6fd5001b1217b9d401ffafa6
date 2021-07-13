@@ -1,0 +1,21 @@
+package com.mmit.security;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.security.enterprise.credential.Credential;
+import javax.security.enterprise.credential.UsernamePasswordCredential;
+import javax.security.enterprise.identitystore.CredentialValidationResult;
+import javax.security.enterprise.identitystore.IdentityStore;
+
+import com.mmit.sec.service.UserService;
+
+@ApplicationScoped
+public class CustomIdentityStore implements IdentityStore {
+	@Inject
+	private UserService service;
+	
+	@Override
+	public CredentialValidationResult validate(Credential credential) {
+		UsernamePasswordCredential nameandpass=(UsernamePasswordCredential) credential;
+	}
+}

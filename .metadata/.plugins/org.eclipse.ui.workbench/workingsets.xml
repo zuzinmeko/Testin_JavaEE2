@@ -5,5 +5,8 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1624885378473_3" label="03-shoe-shop-project" name="03-shoe-shop-project">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/03-shoe-shop-project" type="4"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1624897559128_4" label="02-security" name="02-security">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/02-security" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1623853694510_2" label="Window Working Set" name="Aggregate for window 1623853694510"/>
 </workingSetManager>

@@ -1,0 +1,9 @@
+package com.mmit.shop.converter;
+
+import javax.faces.convert.Converter;
+import javax.inject.Named;
+
+@Named
+public class CategoryConverter implements Converter<Category>{
+
+}

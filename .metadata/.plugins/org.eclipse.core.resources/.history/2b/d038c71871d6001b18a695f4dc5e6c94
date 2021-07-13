@@ -1,0 +1,29 @@
+package com.mmit.shop.converter;
+
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.convert.Converter;
+import javax.inject.Named;
+
+import com.mmit.shop.model.entity.Brand;
+
+
+
+@Named
+public class BrandConverter implements Converter<Brand> {
+
+	@Override
+	public Brand getAsObject(FacesContext context, UIComponent component, String value) {
+
+
+		return null;
+	}
+
+	@Override
+	public String getAsString(FacesContext context, UIComponent component, Brand value) {
+
+
+		return null;
+	}
+
+}

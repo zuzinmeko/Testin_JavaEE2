@@ -1,0 +1,9 @@
+package com.mmit.security;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.security.enterprise.identitystore.IdentityStore;
+
+@ApplicationScoped
+public class CustomIdentityStore implements IdentityStore {
+
+}

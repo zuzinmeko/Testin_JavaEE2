@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+	<title>Admin</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+	<h:outputStylesheet library="js" name="jquery.min.js"></h:outputStylesheet>
+	<h:outputScript library="js" name="bootstrap.min.js"></h:outputScript>
+</h:head> 
+<body> 
+	<div class="container">
+		<h3>User Management</h3>
+		
+		<div class="row">
+			<!-- user create -->
+			<div class="col-5">
+				<h:form styleClass="form">
+					<div class="form-group">
+						<label>Login Id</label>]
+						<h:inputText styleClass="form-control" value="#{userBean.user.userName}" >
+							
+						</h:inputText>
+						
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<h:inputText styleClass="form-control" id="email" value="#{userBean.user.email}">
+						<f:validateRequired></f:validateRequired></h:inputText>
+						<h:message for="email"/>
+					</div>
+					<div class="form-group">
+						<label>Password</label>]
+						<h:inputSecret styleClass="form-control" value="#{userBean.user.password}"/>
+					</div>
+					<div class="form-group">
+						<label>Role</label>]
+						<h:selectOneMenu value="#{userBean.user.role}" styleClass="form-control">  
+							<f:selectItem itemLabel="Admin" itemValue="Admin"/>
+							<f:selectItem itemLabel="Member" itemValue="Member"/>
+						</h:selectOneMenu>
+					</div>
+					<div class="form-group">
+						<h:commandButton action="#{userBean.creteUser()}" value="Create" styleClass="btn btn-primary" />
+					</div>
+				</h:form>
+			</div>
+			<!-- user list -->
+			<div class="col">
+			
+			</div>
+		</div>
+		
+	</div>
+</body> 
+</html>
